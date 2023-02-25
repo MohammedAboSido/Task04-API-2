@@ -41,39 +41,10 @@ main {
   border-radius: 6px;
   padding: 1rem;
 }
-
-.box-title,
-.box-desc {
-  margin-bottom: 0.5rem;
+.box img {
+  width: 100%;
+  object-fit: cover;
 }
-
-.box-title {
-  font-size: 1.2rem;
-  color: #444;
-}
-.box-desc {
-  color: #666;
-  line-height: 1.5;
-}
-.box-spans {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.7rem;
-}
-.span-one {
-  background-color: #f4eaee;
-  padding: 0.3rem;
-  border-radius: 6px;
-  font-size: 0.9rem;
-}
-.span-two {
-  background-color: #eff3f2;
-  padding: 0.3rem;
-  border-radius: 6px;
-  font-size: 0.9rem;
-}
-
 .to-down {
   position: fixed;
   top: 85%;
